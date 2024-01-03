@@ -2,10 +2,11 @@
 2. Instalar scoop con el comando:
 irm get.scoop.sh -outfile 'install.ps1'
 .\install.ps1 -RunAsAdmin [-OtherParameters ...]
-# I don't care about other parameters and want a one-line command
+I don't care about other parameters and want a one-line command
 iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 3.Instalar symfony con comando:
 scoop install symfony-cli
+
 4. Creamos nuestro primer proyecto por ejemplo en Documents con: 
 PS C:\Users\Admin\Documents> symfony new --webapp holasymfony
 **Se puede crear donde se quiera por ejemplo dentro de xampp crear una carpeta que se llame SymfonyProject
